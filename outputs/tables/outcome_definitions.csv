@@ -1,0 +1,3 @@
+variable,definition,interpretation_note
+nonwalking_access_or_egress,1 if any selected TRACC_* or TREGR_* access/egress mode is non-walking; 0 otherwise.,Non-circular with respect to access_time_min and egress_time_min.
+multimodal_transit_trip,1 if nonwalking_access_or_egress == 1 OR total_access_egress_time_min > 10; 0 otherwise.,Partly definitional when access_time_min or egress_time_min are included as predictors.

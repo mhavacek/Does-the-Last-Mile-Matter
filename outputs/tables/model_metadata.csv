@@ -1,0 +1,3 @@
+model,outcome,n,settings
+Model A logistic regression,multimodal_transit_trip,11090,statsmodels Logit; numeric predictors median-imputed; categorical predictors encoded with one reference level; survey weights not applied.
+Model B random forest,multimodal_transit_trip,11090,75/25 stratified train/test split; train n approximately 8317; test n approximately 2773; 400 trees; min_samples_leaf=5; class_weight='balanced'; random seed fixed.

@@ -1,0 +1,7 @@
+item,n,handling
+final analysis rows,11090,All public-transit trip rows retained.
+usable access/egress variables,10722,Used in descriptive availability counts; rows without usable access/egress remain in the dataset.
+access_time_min nonmissing,10627,Missing numeric predictors are median-imputed inside Model A and Model B.
+egress_time_min nonmissing,10607,Missing numeric predictors are median-imputed inside Model A and Model B.
+total_access_egress_time_min nonmissing,10699,Computed as access + egress when either component exists; set missing when both components are missing.
+categorical predictors,11090,Missing categorical predictors are filled as an explicit 'missing' level before encoding.

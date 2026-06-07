@@ -1,0 +1,40 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Matplotlib/cache artifacts
+outputs/.matplotlib/
+
+# Raw NHTS data are public-use files but are not redistributed by this repo.
+data/raw/**
+!data/raw/.gitkeep
+
+# Generated processed data. Recreate with run_all.py.
+data/processed/*.csv
+data/processed/*.parquet
+
+# Large/local raw-ish spreadsheet or archive artifacts.
+*.xlsx
+*.xls
+outputs.zip
+
+# Keep generated publication outputs trackable unless intentionally cleaned.
+!outputs/tables/*.csv
+!outputs/figures/*.png
+!figures/*.png

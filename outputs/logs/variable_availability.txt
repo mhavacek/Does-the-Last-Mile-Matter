@@ -1,0 +1,30 @@
+Variable availability report
+============================
+
+trip: loaded, 923572 rows
+person: loaded, 264234 rows
+household: loaded, 129696 rows
+vehicle: loaded, 256115 rows
+
+HOUSEID: FOUND; column=HOUSEID; patterns=^HOUSEID$
+PERSONID: FOUND; column=PERSONID; patterns=^PERSONID$
+TRPTRANS: FOUND; column=TRPTRANS; patterns=^TRPTRANS$
+PUBTRANS: FOUND; column=PUBTRANS; patterns=^PUBTRANS$
+TRIPPURP: FOUND; column=TRIPPURP; patterns=^TRIPPURP$, ^WHYTRP1S$
+TRPMILES: FOUND; column=TRPMILES; patterns=^TRPMILES$
+TRVLCMIN: FOUND; column=TRVLCMIN; patterns=^TRVLCMIN$
+ACCESS_TIME: FOUND; column=TRACCTM; patterns=^TRACCTM$
+EGRESS_TIME: FOUND; column=TREGRTM; patterns=^TREGRTM$
+ACCESS_MODE: FOUND; column=TRACC_WLK; patterns=^TRACC_
+EGRESS_MODE: FOUND; column=TREGR_WLK; patterns=^TREGR_
+WTTRDFIN: FOUND; column=WTTRDFIN; patterns=^WTTRDFIN$
+AGE: FOUND; column=R_AGE; patterns=AGE
+SEX: FOUND; column=R_SEX; patterns=SEX
+VEHICLES: FOUND; column=HHVEHCNT; patterns=VEH
+INCOME: FOUND; column=HHFAMINC; patterns=INCOME
+URBAN_OR_MSA: FOUND; column=URBAN; patterns=URBAN, MSA
+
+All trip records: 923572
+Public transit trip records retained: 11090
+Transit trips with usable access/egress variables: 10722
+Processed file rows: 11090
